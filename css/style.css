@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    height: 50px;
+}
+
+header > div {
+    flex-direction: row-reverse;
+}
+
+.header-button {
+    background-color: rgba(103, 115, 124, .7);
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
