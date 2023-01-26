@@ -36,10 +36,33 @@ footer {
     height: 50px;
     background-color: #222222;
 }
-.icon-button {
+.icon-section {
     flex-direction: column;
     align-items: center;
     padding-top: 5px;
     padding-right: 2px;
-    margin: 0.6rem;
+    margin: 10px;
+}
+.button {
+    align-items: center;
+    margin-right: 5px;
+}
+
+#green {
+    color: green;
+}
+
+footer i {
+    font-size: 20px;
+}
+
+.exit {
+    color: red;
+    align-items: center;
+    background-color: grey;
+    padding: 8px;
+}  
+
+.dimension {
+    font-size: 10px;
 }
